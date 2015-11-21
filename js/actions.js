@@ -3,8 +3,8 @@ var fn = {
 		document.addEventListener("deviceready",fn,init,false);
 	},
 	init: function () {
-			drawMap: function(19.065799,-98.218368){
-},
+		geo.getPosition();
+	},
 drawMap: function(lat,lng){
 					//Posición del mapa
 					var latlng = new google.maps.LatLng(lat, lng);
